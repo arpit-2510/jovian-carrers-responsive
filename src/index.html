@@ -2,12 +2,27 @@
 <html>
 
 <head>
-    <title>
-        My First Web Page
-    </title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about job openings at Jovian and submit your application now">
+    <meta name="keywords" content="data science, software development, jobs">
+    <meta name="author" content="Jovian">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Jovian Careers | Build a Successful Career in Tech">
+    <meta property="og:description" content="Learn about job openings at Jovian and submit your application now">
+    <meta property="og:image" content="/jovian_meta.png">
+    <meta name="twitter:title" content="Jovian Careers | Build a Successful Career in Tech">
+    <meta name="twitter:description" content="Learn about job openings at Jovian and submit your application now">
+    <meta name="twitter:image" content="/jovian_meta.png">
+    <title>Jovian Careers | Build a Successful Career in Tech</title>
+    <link rel="icon" href="/jovian_favicon.png" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
 
@@ -107,24 +122,24 @@
                 <input type="text" id="name" name="Full Name" required placeholder="John Doe">
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="email">Email</label><br>
                 <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="phone">Phone</label><br>
                 <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="dob">Date Of Birth</label><br>
                 <input type="date" id="dob" name="dob" required>
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="position">Position Applied For</label><br>
-                <select  id="position" name="Position Applied" required>
+                <select id="position" name="Position Applied" required>
                     <option value="">Select position</option>
                     <option value="frontend developer">Frontend Developer</option>
                     <option value="full stack developer">Full Stack Developer</option>
@@ -133,27 +148,28 @@
                 </select>
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="resume">Upload Resume</label><br>
-                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"  required>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
             </div>
 
-            <div class="form-group"> 
+            <div class="form-group">
                 <label for="cover letter">Cover Letter</label><br>
-                <textarea type="file" id="cover letter" name="cover letter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+                <textarea type="file" id="cover letter" name="cover letter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
             </div>
 
             <div class="form-group">
                 <label for="terms">
-                <input type="checkbox" id="terms" name="terms" required>   
-                I agree to the terms and condition
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and condition
                 </label>
             </div>
 
             <div class="form-group">
                 <input type="submit" value="Submit Application">
             </div>
-            
+
         </form>
 
 
